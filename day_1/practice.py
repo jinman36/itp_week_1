@@ -8,7 +8,25 @@ print('    /  |')
 print('   /___|')
 
 # recreate this triangle with a height of 6
+print('-------------')
+print('      /|')
+print('     / |')
+print('    /  |')
+print('   /   |')
+print('  /    |')
+print(' /_____|')
 
 # recreate the 4 level triangle with a single line using \n
+print('-------------')
+print('    /|\n   / |\n  /  |\n /___|\n')
 
 #recreate the 4 level triangle using a multi-line string
+print('-------------')
+
+print('''      
+      /|
+     / |
+    /  |
+   /   |
+  /    |
+ /_____|''')
