@@ -8,12 +8,12 @@ validation_rule = type(int())
 # Use an if/else to determine if they are of legal drinking age.
 # if the user is of age, print "Welcome!"
 # else, tell them to come back in X amount of years (use math operations)
-if type(user_age) != validation_rule:
+if type(int(user_age)) != validation_rule:
   print('What did you enter?')
-elif user_age >= 21:
+elif int(user_age) > 21:
   print("Welcome!")
 else:
-  print('come back in', (21 - user_age), 'years!')
+  print('come back in', (21 - int(user_age)), 'years!')
 
 
 # Bonus: Add a validation by checking the type of the user input
