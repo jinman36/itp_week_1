@@ -16,7 +16,7 @@
 
 # validation_rule = type(int(21))
 
-user_guess= int(input("Guess a number between 1 and 9: "))
+user_guess= int(input("Guess a number: "))
 user_guess_mult = user_guess*2
 user_guess_add = user_guess_mult + 10
 user_guess_div = user_guess_add/2
